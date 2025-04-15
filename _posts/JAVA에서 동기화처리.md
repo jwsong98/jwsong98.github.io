@@ -1,14 +1,8 @@
 ---
 title: JAVA에서 락
 date: 2025-03-06 17:26:21
-categories:
-  - JAVA
-tags:
-  - CAS
-  - concurrent
-  - lock
-  - semaphore
-  - multi-thread
+categories: [JAVA]
+tags: [cas, concurrent, lock, semaphore, multi-thread]
 ---
 ## 개요
 이전 프로젝트에서 예약 시스템, 위치 데이터 구독 관리 시스템을 JAVA로 직접 구현한 적이 있었는데,
