@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - master
+      - bloging
     paths-ignore:
       - .gitignore
       - README.md
