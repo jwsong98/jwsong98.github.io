@@ -1,25 +1,25 @@
 @mixin styles {
   /* Framework color */
-  --main-bg: white;
-  --mask-bg: #c1c3c5;
-  --main-border-color: #f3f3f3;
+  --main-bg: #f0f8ff; /* Light blue background */
+  --mask-bg: #a8c7dc;
+  --main-border-color: #d0e4f5;
 
   /* Common color */
-  --text-color: #34343c;
-  --text-muted-color: #757575;
+  --text-color: #2c3e50;
+  --text-muted-color: #5d7b97;
   --text-muted-highlight-color: inherit;
-  --heading-color: #2a2a2a;
-  --label-color: #585858;
-  --blockquote-border-color: #eeeeee;
-  --blockquote-text-color: #757575;
-  --link-color: #0056b2;
-  --link-underline-color: #dee2e6;
-  --button-bg: #ffffff;
-  --btn-border-color: #e9ecef;
-  --btn-backtotop-color: #686868;
-  --btn-backtotop-border-color: #f1f1f1;
-  --checkbox-color: #c5c5c5;
-  --checkbox-checked-color: #07a8f7;
+  --heading-color: #1a5276;
+  --label-color: #2874a6;
+  --blockquote-border-color: #aed6f1;
+  --blockquote-text-color: #5d7b97;
+  --link-color: #2980b9;
+  --link-underline-color: #a9cce3;
+  --button-bg: #ebf5fb;
+  --btn-border-color: #d4e6f1;
+  --btn-backtotop-color: #3498db;
+  --btn-backtotop-border-color: #d4e6f1;
+  --checkbox-color: #a9cce3;
+  --checkbox-checked-color: #3498db;
   --img-bg: radial-gradient(
     circle,
     rgb(255, 255, 255) 0%,
@@ -33,54 +33,64 @@
   );
 
   /* Sidebar */
-  --site-title-color: rgb(113, 113, 113);
-  --site-subtitle-color: #717171;
-  --sidebar-bg: #f6f8fa;
-  --sidebar-border-color: #efefef;
-  --sidebar-muted-color: #545454;
-  --sidebar-active-color: #1d1d1d;
-  --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
-  --sidebar-btn-bg: white;
-  --sidebar-btn-color: #8e8e8e;
-  --avatar-border-color: white;
+  --site-title-color: #2c3e50;
+  --site-subtitle-color: #3498db;
+  --sidebar-bg: #e8f4fc;
+  --sidebar-border-color: #bedaf0;
+  --sidebar-muted-color: #5d7b97;
+  --sidebar-active-color: #1a5276;
+  --sidebar-hover-bg: rgba(174, 214, 241, 0.5);
+  --sidebar-btn-bg: #f0f8ff;
+  --sidebar-btn-color: #3498db;
+  --avatar-border-color: #a9cce3;
 
   /* Topbar */
-  --topbar-bg: rgb(255, 255, 255, 0.7);
-  --topbar-text-color: rgb(78, 78, 78);
-  --search-border-color: rgb(240, 240, 240);
-  --search-icon-color: #c2c6cc;
-  --input-focus-border-color: #b8b8b8;
+  --topbar-bg: rgba(240, 248, 255, 0.8);
+  --topbar-text-color: #2c3e50;
+  --search-border-color: #bedaf0;
+  --search-icon-color: #3498db;
+  --input-focus-border-color: #3498db;
 
   /* Home page */
-  --post-list-text-color: dimgray;
-  --btn-patinator-text-color: #555555;
+  --post-list-text-color: #2c3e50;
+  --btn-patinator-text-color: #3498db;
   --btn-paginator-hover-color: var(--sidebar-bg);
 
   /* Posts */
-  --toc-highlight: #0550ae;
-  --toc-popup-border-color: lightgray;
-  --btn-share-color: gray;
-  --btn-share-hover-color: #0d6efd;
-  --card-bg: white;
-  --card-hovor-bg: #e2e2e2;
-  --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0,
-    rgba(211, 209, 209, 0.15) 0 0 0 1px;
-  --footnote-target-bg: lightcyan;
-  --tb-odd-bg: #fbfcfd;
-  --tb-border-color: #eaeaea;
-  --dash-color: silver;
-  --kbd-wrap-color: #bdbdbd;
+  --toc-highlight: #2980b9;
+  --toc-popup-border-color: #bedaf0;
+  --btn-share-color: #5d7b97;
+  --btn-share-hover-color: #3498db;
+  --card-bg: #f0f8ff;
+  --card-hovor-bg: #d6eaf8;
+  --card-shadow: rgba(52, 152, 219, 0.1) 0 2px 6px 0,
+    rgba(174, 214, 241, 0.2) 0 0 0 1px;
+  --footnote-target-bg: #d6eaf8;
+  --tb-odd-bg: #ebf5fb;
+  --tb-border-color: #bedaf0;
+  --dash-color: #a9cce3;
+  --kbd-wrap-color: #a9cce3;
   --kbd-text-color: var(--text-color);
-  --kbd-bg-color: white;
-  --prompt-text-color: rgb(46, 46, 46, 0.77);
-  --prompt-tip-bg: rgb(123, 247, 144, 0.2);
-  --prompt-tip-icon-color: #03b303;
-  --prompt-info-bg: #e1f5fe;
-  --prompt-info-icon-color: #0070cb;
-  --prompt-warning-bg: rgb(255, 243, 205);
-  --prompt-warning-icon-color: #ef9c03;
-  --prompt-danger-bg: rgb(248, 215, 218, 0.56);
-  --prompt-danger-icon-color: #df3c30;
+  --kbd-bg-color: #ebf5fb;
+  --prompt-text-color: #2c3e50;
+  --prompt-tip-bg: rgba(174, 214, 241, 0.3);
+  --prompt-tip-icon-color: #3498db;
+  --prompt-info-bg: rgba(214, 234, 248, 0.5);
+  --prompt-info-icon-color: #2980b9;
+  --prompt-warning-bg: rgba(245, 176, 65, 0.2);
+  --prompt-warning-icon-color: #f39c12;
+  --prompt-danger-bg: rgba(231, 76, 60, 0.2);
+  --prompt-danger-icon-color: #e74c3c;
+
+  /* PARA style prompts */
+  --prompt-project-bg: rgba(52, 152, 219, 0.2);
+  --prompt-project-icon-color: #3498db;
+  --prompt-area-bg: rgba(41, 128, 185, 0.2);
+  --prompt-area-icon-color: #2980b9;
+  --prompt-resource-bg: rgba(93, 173, 226, 0.2);
+  --prompt-resource-icon-color: #5dade2;
+  --prompt-archive-bg: rgba(133, 193, 233, 0.2);
+  --prompt-archive-icon-color: #85c1e9;
 
   /* Tags */
   --tag-border: #dee2e6;

@@ -87,6 +87,12 @@ blockquote {
   @include mx.prompt('info', '\f06a', $rotate: 180);
   @include mx.prompt('warning', '\f06a');
   @include mx.prompt('danger', '\f071');
+
+  /* PARA style prompts */
+  @include mx.prompt('project', '\f0ae'); /* Tasks icon */
+  @include mx.prompt('area', '\f015'); /* Home icon */
+  @include mx.prompt('resource', '\f02d'); /* Book icon */
+  @include mx.prompt('archive', '\f187'); /* Archive icon */
 }
 
 kbd {
